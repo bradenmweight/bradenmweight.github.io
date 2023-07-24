@@ -1,114 +1,104 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<body style="background-color:rgb(240, 231, 253);">
-<style>
-body {font-family: Arial;}
-    
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 2px solid #000000;
-  background-color: #66f863;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #55c4ed;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #55c4ed;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 2px solid #000000;
-  border-top: none;
-}
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Huo Group</title>
+    <meta name="description" content="Paragraph">
+    <meta property="og:image" content="">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/Responsive-Youtube-Embed.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
 </head>
+
 <body>
-
-<h1><center>Braden M. Weight</center></h1>
-
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Education')">Biography and Education</button>
-  <button class="tablinks" onclick="openCity(event, 'Publications')">Publications</button>
-  <button class="tablinks" onclick="openCity(event, 'Curriculum Vitae')"><i>Curriculum Vitae<i></button>
-</div>
-
-<div id="Education" class="tabcontent">
-  <h3>Education</h3>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col col-4" style="text-align: center;min-width: 250px;"><img src="Figures/Braden%20Weight.jpg" style="width: inherit;">
-                    <p class="text-center"><br>Braden M. Weight<br><br>bweight@ur.rochester.edu<br></p><a href="https://scholar.google.com/citations?user=7FqdbXoAAAAJ&amp;hl=en"><img src="Figures/Google_Scholar_logo_2015.png" style="height: 3rem;" width="125" height="48"></a><a href="Documents/Braden_CV.pdf"><br><br><button class="btn btn-primary" type="button">Curriculum vitae</button></a>
-                </div>
-                <div class="col">
-                    <p class="text-justify">Braden received his B.S. in physics and B.S. in chemistry in 2018 and his M.S. in physics in 2020, all from North Dakota State University (NDSU). There he worked primarily with Prof. Svetlana Kilina (Dept. of Chemistry) in the simulation of optical properties of defected carbon nanotube systems. He also performed work under the supervision of Prof. Alan Denton (Dept. of Physics) on the molecular dynamics simulation of microgel particles, studying their structure and stability in the presence of effective charges in solution. During his M.S. he worked closely with Prof. Andrei Kryjevski implementing many-body perturbation theory techniques to explore multiple exciton generation in fluorescent carbon nanotube systems.<br><br>Starting in 2018, under the supervision of Dr. Sergei Tretiak and Dr. Brendan Gifford, Braden has had the opportunity to attend summer internships at Los Alamos National Laboratory, working in close collaboration with experimentalists Dr. Han Htoon and Dr. Steve Doorn at the Center for Integrated Nanotechnologies. During his time here, and throughout the year, he works to answer questions regarding experimental phenomena using state-of-the-art computations involving time-dependent density functional theory and non-adiabatic excited state dynamics.<br><br>His current interests in the Huo group are in progressing mixed quantum classical non-adiabatic dynamics method development and applications to on-the-fly simulation. Here he aims to address fundamental questions regarding the methodologies and their effects on subsequent observables in a variety of novel systems and situations, including cavity quantum electrodynamics (exciton-polaritons) and coherent and incoherent decay processes.<br></p>
-                    <div class="row">
-                        <div class="col" id="institution"><img src="Figures/ndsu.png">
-                            <p>North Dakota State University</p>
-                            <p>B. S. in Physics 2018<br>B. S. in Chemistry 2018</p>
-                        </div>
-                        <div class="col" id="institution"><img src="Figures/ndsu.png">
-                            <p>North Dakota State University</p>
-                            <p>M. S. in Physics 2020</p>
-                        </div>
-                        <div class="col" id="institution"><img src="Figures/uofrlogosq.png">
-                            <p>University of Rochester</p>
-                            <p>M. S. in Physics 2022</p>
-                        </div>
-                    </div>
-                </div>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="https://huogroup.github.io/"><img src="assets/img/huogroup.png" style="height: 1.5rem;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../biography.html">Biography</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../research.html">Research</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-</div>
-
-<div id="Publications" class="tabcontent">
-  <h3>Publications</h3>
-  <p>Paris is the capital of France.</p> 
-</div>
-
-<div id="Curriculum Vitae" class="tabcontent">
-  <h3>Curriculum Vitae</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-   
+    </nav>
+    <main class="page landing-page">
+        <section class="clean-block clean-hero" style="background-image: url(&quot;assets/img/uofr.jpeg&quot;);color: rgba(9, 162, 255, 0.0);">
+            <div class="text"></div>
+        </section>
+        <section class="clean-block clean-info dark" style="color: rgb(33, 37, 41);">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Theoretical and Computational Chemistry</h2>
+                    <p style="/*width: 90%;*//*margin: 10%;*/"></p>
+                </div>
+            </div>
+            <p class="text-justify" style="margin-left: 10%;margin-right: 10%;font-size: 20px;">The Huo group develops new theoretical approaches to investigate chemical reactivities when they are enabled by intrinsically quantum mechanical behavior. These Quantum mechanical behaviors, such as the quantum tunneling of a proton and strong coupling to a quantized photon, has shown great promise in enabling&nbsp;<em>new paradigms</em>&nbsp;for chemical transformations that will profoundly impact catalysis, energy production, and the field of chemistry at large. Understanding the real-time dynamics of these processes will inspire transformative design principles that take advantage of intrinsic quantum behaviors and facilitate the&nbsp;<em>quantum leap</em>&nbsp;of chemistry. Accurately and efficiently simulating non-adiabatic transitions among these quantized electronic, vibronic, photonic, or hybridized states remains a central challenge in theoretical chemistry.&nbsp; My group works to address this challenge by developing new quantum dynamics approaches that accurately simulate these processes and provide critical insights into these new phenomena.</p>
+        </section>
+        <section class="clean-block features">
+            <div class="row" style="margin: 3%;padding-left: 10%;padding-right: 10%;padding-top: 2rem;">
+                <div class="col" style="background-color: #e8e8e8;padding-top: 10px;">
+                    <p class="text-center" style="font-size: 20px;">Photo-induced Quantum Dynamics</p><img src="assets/img/research1.gif" style="width: inherit;">
+                </div>
+                <div class="col" style="background-color: #e0e0e0;padding-top: 10px;">
+                    <p class="text-center" style="font-size: 20px;">Path Integral Method Development</p><img src="assets/img/research2.gif" style="width: inherit;">
+                </div>
+                <div class="col" style="background-color: #e8e8e8;padding-top: 10px;">
+                    <p class="text-center" style="font-size: 20px;">Cavity Quantum Electrodynamics</p><img src="assets/img/cavity.gif" style="width: inherit;">
+                </div>
+            </div>
+            <h2 class="text-center text-info" style="margin-bottom: 20px;">Current Funding</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xl-2 offset-xl-0"><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2124398" style="width: inherit;" target="_blank">
+                            <h5 style="text-align: center;">CHE-2124398</h5><img src="assets/img/NSF.png" style="width: inherit;">
+                        </a></div>
+                    <div class="col-md-3 col-xl-2 offset-xl-0"><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1845747" style="width: inherit;" target="_blank">
+                            <h5 style="text-align: center;">CHE-1845747</h5><img src="assets/img/NSF.png" style="width: inherit;">
+                        </a></div>
+                    <div class="col-md-3 col-xl-2 offset-xl-0"><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1900125" style="width: inherit;" target="_blank">
+                            <h5 style="text-align: center;">CHE-1900125</h5><img src="assets/img/NSF.png" style="width: inherit;">
+                        </a></div>
+                    <div class="col-md-3 col-xl-2 offset-xl-0"><a href="https://www.energy.gov/articles/doe-announces-73-million-materials-and-chemical-sciences-research-advance-quantum-science" style="width: inherit;" target="_blank">
+                            <h5 style="text-align: center;">DOE QIS Award</h5><img src="assets/img/DOE.png" style="width: inherit;">
+                        </a></div>
+                    <div class="col-md-3 col-xl-2 offset-xl-0"><a href="https://rescorp.org/news/2020/02/rcsa-names-25-new-cottrell-scholars-for-2020" style="width: inherit;" target="_blank">
+                            <h5 style="text-align: center;">Cottrell Award</h5><img src="assets/img/rcsa_logo.png" style="width: inherit;">
+                        </a></div>
+                    <div class="col-md-3 col-xl-2 offset-xl-0"><a href="https://www.acscomp.org/awards/the-comp-acs-outstanding-junior-faculty-award" style="width: inherit;" target="_blank">
+                            <h5 style="text-align: center;">Open-Eye Award</h5><img src="assets/img/Screen%20Shot%202021-02-24%20at%203.53.57%20PM.png" style="width: inherit;">
+                        </a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="container" style="padding: 0 10% 0 10%;">
+            <div class="row">
+                <div class="col-sm-3"><a href="https://www.rochester.edu/" style="width: inherit;"><img src="assets/img/UR.png" style="width: inherit;"></a></div>
+                <div class="col-sm-3"><a href="http://www.sas.rochester.edu/chm/" style="width: inherit;"><img src="assets/img/DepartmentChem.png" style="width: inherit;"></a></div>
+                <div class="col-sm-3"><a href="https://www.circ.rochester.edu/" style="width: inherit;"><img src="assets/img/circ.png" style="width: inherit;"></a></div>
+                <div class="col-sm-3"><a href="http://rochester.edu/simcenter/" style="width: inherit;"><img src="assets/img/cms.png" style="width: inherit;"></a></div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2021 Huo Group</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
-</html> 
+
+</html>
