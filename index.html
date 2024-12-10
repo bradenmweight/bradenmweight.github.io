@@ -54,11 +54,9 @@
     <script src="assets/js/theme.js"></script>
 </body>
 <body>
-    <!-- first try HTML5 playback: if serving as XML, expand `controls` to `controls="controls"` and autoplay likewise       -->
-    <!-- warning: playback does not work on iPad/iPhone if you include the poster attribute! fixed in iOS4.0                 -->
-    <video width="640" height="360" controls preload="none">
-        <!-- <source src="__VIDEO__.MP4" type="video/mp4" /><!-- WebKit video    -->
-        <source src="movies/cyclopropanone__CO_ETH.mp4" type="video/mp4" /><!-- WebKit video    -->
+    <!-- Insert movie at movies/*mp4 at the center of the screen with autoplay and infinite looping -->
+    <video autoplay loop muted style="position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%;">
+        <source src="movies/cyclopropanone__CO_ETH.mp4" type="video/mp4">
     </video>
 </body>
 
@@ -66,3 +64,6 @@
 
 
 </html>
+
+
+
